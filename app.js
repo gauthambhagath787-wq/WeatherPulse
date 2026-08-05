@@ -64,6 +64,7 @@ const getWeatherData = async () => {
     } catch (err) { //If error, it will display error
         regionInfo.innerHTML = "";
         regionClimate.innerHTML = "";
+        flag.innerHTML = "";
         errorPara.innerText = "";
         errorPara.innerText = `${queryVal} is not a valid City Name`
     }
