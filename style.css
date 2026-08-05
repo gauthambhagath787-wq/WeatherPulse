@@ -20,14 +20,14 @@ header{
 
 main{
     margin-top: 3rem;
-    height: 40vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
 }
 
 .container{
     min-height: 10vh;
-    height: auto;
+    overflow: visible;
     width: auto;
     background-color: #f0f3bd;
     padding: 2.5rem;
